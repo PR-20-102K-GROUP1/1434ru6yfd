@@ -1,7 +1,3 @@
-# 1434ru6yfd
-
-
-
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
@@ -20,8 +16,11 @@
   </LinearLayout>
 
   <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="125dp" android:minWidth="410dp">
-
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"></LinearLayout>
     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Текст" android:textSize="30sp" />
+
     <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="72dp" android:minHeight="125dp" android:minWidth="125dp">
       <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_launcher" android:layout_margin="3dp" />
 
